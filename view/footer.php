@@ -5,7 +5,7 @@
                 <h3>GAMEWEB</h3>
             </div>
             <div class='col-4'>
-                <p class='footer-copyright text-center py-3'>© 2019 Brave Theme. Privacty Policy</p>
+                <p class='footer-copyright text-center py-3'>© 2019 GAMEWEB. Privacy Policy</p>
             </div>
             <div class='col-4 social-media-icons-container'>
                 <a href="#" class="fab fa-facebook"></a>

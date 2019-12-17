@@ -3,7 +3,7 @@
     <!-- eerste sectie-->
     <div class="intro">
         <div class="col">
-            <h1>GAMES SHOP</h1>
+            <h1>GAMEWEB</h1>
             <p>The latest games and consoles</p>
             <div class="knoppen">
                 <a class="btn links" href="#aanbod">Bekijk ons aanbod</a>
@@ -29,7 +29,7 @@
                     <br>
                     <h5 class="card-title">Keiland Evolved</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="User Profile">
+                        <a href="#" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -44,7 +44,7 @@
                     <br>
                     <h5 class="card-title">Rocket League</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="User Profile">
+                        <a href="#" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -59,7 +59,7 @@
                     <br>
                     <h5 class="card-title">Astroneer</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="User Profile">
+                        <a href="#" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -74,7 +74,7 @@
                     <br>
                     <h5 class="card-title">Farming Simulator</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="User Profile">
+                        <a href="#" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -89,7 +89,7 @@
                     <br>
                     <h5 class="card-title">Cities Skylines</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="User Profile">
+                        <a href="#" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -104,7 +104,7 @@
                     <br>
                     <h5 class="card-title">Far Cry 3</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="User Profile">
+                        <a href="#" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -119,7 +119,7 @@
                     <br>
                     <h5 class="card-title">FIfA 10</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="User Profile">
+                        <a href="#" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -134,7 +134,7 @@
                     <br>
                     <h5 class="card-title">Hoi</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="User Profile">
+                        <a href="#" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -149,7 +149,7 @@
                     <br>
                     <h5 class="card-title">Red Dead Redemption</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="User Profile">
+                        <a href="#" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -164,7 +164,7 @@
                     <br>
                     <h5 class="card-title">Tramshooting simulator</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="User Profile">
+                        <a href="#" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -179,7 +179,7 @@
                     <br>
                     <h5 class="card-title">Rust</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="User Profile">
+                        <a href="#" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -194,7 +194,7 @@
                     <br>
                     <h5 class="card-title">Subnautica</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="User Profile">
+                        <a href="#" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -209,7 +209,7 @@
                     <br>
                     <h5 class="card-title">2K20</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="User Profile">
+                        <a href="#" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -224,7 +224,7 @@
                     <br>
                     <h5 class="card-title">Hout</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="User Profile">
+                        <a href="#" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
