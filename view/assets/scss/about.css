@@ -1,0 +1,57 @@
+.containe {
+  padding: 5pc 5pc 5pc 5pc;
+}
+
+.containe h1 {
+  color: white;
+  text-align: center;
+  font-size: 3pc;
+  text-transform: uppercase;
+}
+
+.containe hr {
+  margin-bottom: 8pc;
+  width: 5%;
+}
+
+.containe .yel {
+  color: #FBE818;
+  text-transform: uppercase;
+}
+
+.containe .yel i {
+  color: white;
+}
+
+.containe p {
+  color: #A3A3AA;
+  margin-bottom: 5pc;
+}
+
+.line {
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+}
+
+.line-1 {
+  z-index: 15;
+  opacity: 0.5;
+}
+
+.wave {
+  position: absolute;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background-repeat: repeat no-repeat;
+  background-position: 0 bottom;
+  -webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+}
+
+.wave1 {
+  background-size: 55% 45px;
+}
+/*# sourceMappingURL=about.css.map */

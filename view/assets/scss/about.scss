@@ -1,0 +1,52 @@
+.containe {
+    padding: 5pc 5pc 5pc 5pc;
+h1{
+    color: white;
+    text-align: center;
+    font-size: 3pc;
+    text-transform: uppercase;
+}
+hr{
+    margin-bottom: 8pc;
+    width: 5%;
+}
+    .yel {
+        color: #FBE818;
+        text-transform: uppercase;
+        i{
+            color: white;
+        }
+    }
+    p{
+        color: #A3A3AA;
+        margin-bottom: 5pc;
+    }
+}
+
+
+.line {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+
+.line-1 {
+    z-index: 15;
+    opacity: 0.5;
+}
+
+.wave {
+    position: absolute;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+}
+
+.wave1 {
+    -webkit-background-size: 55% 45px;
+    background-size: 55% 45px;
+}

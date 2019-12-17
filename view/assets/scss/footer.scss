@@ -1,0 +1,35 @@
+.fab {
+  border-radius: 100%;
+  background-color: #21212E;
+}
+
+.page-footer{
+  min-height: 150px;
+  padding-top: 30px;
+  background-color: #29293A;
+  color: white;
+  a{
+    color: white;
+    &:hover{
+      color: white;
+      text-decoration: none;
+    }
+  }
+  .col-4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+.social-media-icons-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
