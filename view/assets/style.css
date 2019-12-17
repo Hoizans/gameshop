@@ -204,11 +204,12 @@ hr {
   border-radius: 30px;
   transition: all 0.3s ease;
   margin-bottom: 20px;
+  background-color: #ED1C94;
+  color: white !important;
 }
 .aboutUs-section .aboutUs-knop:hover {
   cursor: pointer;
   background-color: #981DF0;
-  color: white !important;
 }
 
 .about-text, .aboutimg {

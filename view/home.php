@@ -221,7 +221,7 @@
                 </div>
                 <div class="card-body">
                     <br>
-                    <h5 class="card-title">Hout</h5>
+                    <h5 class="card-title">Anass Portfolio Simulator</h5>
                     <div class="overlay">
                         <a href="#" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
