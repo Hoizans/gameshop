@@ -22,7 +22,7 @@
 
             <div class="card card-overlay" style="width: 18rem;">
                 <div class="container item-img-container">
-                    <img src="view/assets/images/ps2.jpg" width="100%">
+                    <img src="view/assets/images/ark.jpg" width="100%">
                 </div>
                 <div class="card-body">
                     <br>
@@ -37,7 +37,7 @@
 
             <div class="card card-overlay" style="width: 18rem;">
                 <div class="container item-img-container">
-                    <img src="view/assets/images/ps2.jpg" width="100%">
+                    <img src="view/assets/images/rocket.jpg" width="100%">
                 </div>
                 <div class="card-body">
                     <br>
@@ -52,7 +52,7 @@
 
             <div class="card card-overlay" style="width: 18rem;">
                 <div class="container item-img-container">
-                    <img src="view/assets/images/ps2.jpg" width="100%">
+                    <img src="view/assets/images/astroneer.jpg" width="100%">
                 </div>
                 <div class="card-body">
                     <br>
@@ -67,7 +67,7 @@
 
             <div class="card card-overlay" style="width: 18rem;">
                 <div class="container item-img-container">
-                    <img src="view/assets/images/ps2.jpg" width="100%">
+                    <img src="view/assets/images/farming.jpg" width="100%">
                 </div>
                 <div class="card-body">
                     <br>
@@ -82,7 +82,7 @@
 
             <div class="card card-overlay" style="width: 18rem;">
                 <div class="container item-img-container">
-                    <img src="view/assets/images/ps2.jpg" width="100%">
+                    <img src="view/assets/images/city.jpg" width="100%">
                 </div>
                 <div class="card-body">
                     <br>
@@ -97,7 +97,7 @@
 
             <div class="card card-overlay" style="width: 18rem;">
                 <div class="container item-img-container">
-                    <img src="view/assets/images/ps2.jpg" width="100%">
+                    <img src="view/assets/images/farcry.jpg" width="100%">
                 </div>
                 <div class="card-body">
                     <br>
@@ -112,7 +112,7 @@
 
             <div class="card card-overlay" style="width: 18rem;">
                 <div class="container item-img-container">
-                    <img src="view/assets/images/ps2.jpg" width="100%">
+                    <img src="view/assets/images/fifa.jpg" width="100%">
                 </div>
                 <div class="card-body">
                     <br>
@@ -127,7 +127,7 @@
 
             <div class="card card-overlay" style="width: 18rem;">
                 <div class="container item-img-container">
-                    <img src="view/assets/images/ps2.jpg" width="100%">
+                    <img src="view/assets/images/halo.jpg" width="100%">
                 </div>
                 <div class="card-body">
                     <br>
@@ -142,7 +142,7 @@
 
             <div class="card card-overlay" style="width: 18rem;">
                 <div class="container item-img-container">
-                    <img src="view/assets/images/ps2.jpg" width="100%">
+                    <img src="view/assets/images/red.jpg" width="100%">
                 </div>
                 <div class="card-body">
                     <br>
@@ -157,7 +157,7 @@
 
             <div class="card card-overlay" style="width: 18rem;">
                 <div class="container item-img-container">
-                    <img src="view/assets/images/ps2.jpg" width="100%">
+                    <img src="view/assets/images/tram.jpg" width="100%">
                 </div>
                 <div class="card-body">
                     <br>
@@ -172,7 +172,7 @@
 
             <div class="card card-overlay" style="width: 18rem;">
                 <div class="container item-img-container">
-                    <img src="view/assets/images/ps2.jpg" width="100%">
+                    <img src="view/assets/images/rust.jpg" width="100%">
                 </div>
                 <div class="card-body">
                     <br>
@@ -187,7 +187,7 @@
 
             <div class="card card-overlay" style="width: 18rem;">
                 <div class="container item-img-container">
-                    <img src="view/assets/images/ps2.jpg" width="100%">
+                    <img src="view/assets/images/subnautica.jpg" width="100%">
                 </div>
                 <div class="card-body">
                     <br>
@@ -202,7 +202,7 @@
 
             <div class="card card-overlay" style="width: 18rem;">
                 <div class="container item-img-container">
-                    <img src="view/assets/images/ps2.jpg" width="100%">
+                    <img src="view/assets/images/2k.jpg" width="100%">
                 </div>
                 <div class="card-body">
                     <br>
@@ -217,7 +217,7 @@
 
             <div class="card card-overlay" style="width: 18rem;">
                 <div class="container item-img-container">
-                    <img src="view/assets/images/ps2.jpg" width="100%">
+                    <img src="view/assets/images/hout.jpg" width="100%">
                 </div>
                 <div class="card-body">
                     <br>
