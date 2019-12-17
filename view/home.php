@@ -3,7 +3,7 @@
     <!-- eerste sectie-->
     <div class="intro">
         <div class="col">
-            <h1>GAMES SHOP</h1>
+            <h1>GAMEWEB</h1>
             <p>The latest games and consoles</p>
             <div class="knoppen">
                 <a class="btn links" href="#aanbod">Bekijk ons aanbod</a>
