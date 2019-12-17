@@ -7,7 +7,7 @@
             <div class='col-4'>
                 <p class='footer-copyright text-center py-3'>© 2019 Brave Theme. Privacty Policy</p>
             </div>
-            <div class='col-4'>
+            <div class='col-4 social-media-icons-container'>
                 <a href="#" class="fab fa-facebook"></a>
                 <a href="#" class="fab fa-twitter"></a>
                 <a href="#" class="fab fa-instagram"></a>
