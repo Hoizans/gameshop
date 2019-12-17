@@ -11,6 +11,7 @@
             </div>
         </div>
     </div>
+    
 
     <!--  tweede sectie  -->
     <div id="aanbod" style="margin: 0pc 7pc 0pc 7pc;">
