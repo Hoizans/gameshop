@@ -1,0 +1,38 @@
+.aboutUs-section {
+  min-height: 110vh;
+  padding: 50px 0;
+
+  .imacScherm {
+    max-width: 100%;
+  }
+
+  .over_ons-title {
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 1;
+
+    h3 {
+      position: relative;
+    }
+  }
+  .aboutUs-knop {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    padding: 14px 38px;
+    border: 1px solid #ededed;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #981DF0;
+      color: white !important;
+    }
+  }
+}
+
+.about-text, .aboutimg{
+  margin: 0 !important;
+}

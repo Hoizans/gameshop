@@ -293,14 +293,15 @@
         </div>
     </div>
 
-    <div class="container" id="over_ons">
+    <div class="container aboutUs-section" id="over_ons">
         <div class="row">
             <div class="col-12 over_ons-title">
-                <h2>De beste webshop voor games!</h2>
-                <p>Alle games op een plek</p>
+                <h2>About us!</h2>
+                <h5>Alle games op een plek</h5>
                 <hr>
             </div>
-            <div class="col-md-6 col-sm-12">
+
+            <div class="col-md-6 col-sm-12 about-text">
                 <h3>Keuze uit meer dan 4000 spellen</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non viverra erat. Ut fringilla
                     vestibulum euismod. Integer ac varius mi, id tempus tortor. Curabitur at dignissim quam, quis
@@ -311,11 +312,15 @@
                     vel. Suspendisse consectetur rutrum urna, sit amet tristique tortor fermentum sed. Curabitur in
                     massa malesuada, finibus urna et, tincidunt felis. Donec sed egestas velit, id sodales lorem. Donec
                     porttitor dui sapien, id tristique felis auctor non. Quisque posuere accumsan nunc ac gravida.</p>
+
             </div>
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-6 col-sm-12 about-img">
                 <!--                <img src="https://via.placeholder.com/500x300" alt="test" />-->
-                <div class="test-blok">test misschien foto hier ofzo</div>
+                <div class="container item-img-container">
+                    <img class="imacScherm" src="view/assets/images/games-collection.png" width="100%">
+                </div>
             </div>
+            <a class="aboutUs-knop">Neem contact op</a>
         </div>
     </div>
 
