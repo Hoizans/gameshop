@@ -19,7 +19,7 @@ body {
 }
 
 hr {
-  width: 145px;
+  width: 145px !important;
   background-image: linear-gradient(to right, #ed1c94 50%, #981df0 120%);
   height: 3px !important;
 }
@@ -35,4 +35,9 @@ hr {
   &:visited {
     border: 1px solid #310cb3 !important;
   }
+}
+
+.row{
+  padding: 0 !important;
+  margin: 0 !important;
 }
