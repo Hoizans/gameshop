@@ -13,7 +13,7 @@ body {
 }
 
 hr {
-  width: 154px;
+  width: 145px;
   background-image: linear-gradient(to right, #ed1c94 50%, #981df0 120%);
   height: 3px !important;
 }
@@ -72,6 +72,10 @@ hr {
 #over_ons .over_ons-title {
   margin-bottom: 20px;
   text-align: center;
+}
+
+#aanbod {
+  padding-bottom: 50px;
 }
 
 .aanbod {
