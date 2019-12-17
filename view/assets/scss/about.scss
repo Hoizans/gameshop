@@ -22,3 +22,31 @@ hr{
         margin-bottom: 5pc;
     }
 }
+
+
+.line {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+
+.line-1 {
+    z-index: 15;
+    opacity: 0.5;
+}
+
+.wave {
+    position: absolute;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+}
+
+.wave1 {
+    -webkit-background-size: 55% 45px;
+    background-size: 55% 45px;
+}
