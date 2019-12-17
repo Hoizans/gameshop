@@ -13,7 +13,7 @@
     </div>
 
     <!--  tweede sectie  -->
-    <div id="aanbod" class="container">
+    <div id="aanbod" style="margin: 0pc 7pc 0pc 7pc;">
         <div class="row aanbod">
             <div class="col-12">
                 <h3>Ons aanbod</h3>
@@ -71,7 +71,7 @@
                 </div>
                 <div class="card-body">
                     <br>
-                    <h5 class="card-title">Woerden Simulator</h5>
+                    <h5 class="card-title">Farming Simulator</h5>
                     <div class="overlay">
                         <a href="#" class="icon" title="User Profile">
                             <i class="fa fa-plus" aria-hidden="true"></i>
