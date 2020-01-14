@@ -158,7 +158,7 @@
 
             <div class="card card-overlay" style="width: 18rem;">
                 <div class="container item-img-container">
-                    <img src="view/assets/images/tram.jpg" width="100%">
+<!--                    <img src="view/assets/images/tram.jpg" width="100%">-->
                 </div>
                 <div class="card-body">
                     <br>
