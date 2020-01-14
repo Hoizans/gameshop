@@ -1,0 +1,42 @@
+.aboutUs-section {
+  min-height: 110vh;
+  padding: 50px 0;
+}
+
+.aboutUs-section .imacScherm {
+  max-width: 100%;
+}
+
+.aboutUs-section .over_ons-title {
+  margin-bottom: 60px;
+  position: relative;
+  z-index: 1;
+}
+
+.aboutUs-section .over_ons-title h3 {
+  position: relative;
+}
+
+.aboutUs-section .aboutUs-knop {
+  position: relative;
+  top: 20px;
+  left: 10px;
+  padding: 14px 38px;
+  border: 1px solid #ededed;
+  border-radius: 30px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+  background-color: #ED1C94;
+  color: white !important;
+}
+
+.aboutUs-section .aboutUs-knop:hover {
+  cursor: pointer;
+  background-color: #981DF0;
+}
+
+.about-text, .aboutimg {
+  margin: 0 !important;
+}
+/*# sourceMappingURL=aboutUs.css.map */

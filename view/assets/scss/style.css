@@ -1,6 +1,288 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 body {
   top: 0;
   left: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
+.test-blok {
+  width: 90%;
+  height: 300px;
+  background-color: grey;
+  border: 1px solid red;
+}
+
+hr {
+  width: 145px !important;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #ed1c94), color-stop(120%, #981df0));
+  background-image: linear-gradient(to right, #ed1c94 50%, #981df0 120%);
+  height: 3px !important;
+}
+
+.btn-primary {
+  background-image: -webkit-gradient(linear, left top, right top, from(#6d0eb1), to(#310cb3)) !important;
+  background-image: linear-gradient(to right, #6d0eb1, #310cb3) !important;
+  border: 1px solid #310cb3 !important;
+}
+
+.btn-primary:active {
+  border: 1px solid #310cb3 !important;
+}
+
+.btn-primary:visited {
+  border: 1px solid #310cb3 !important;
+}
+
+.row {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.section-wave {
+  position: absolute;
+  top: 0;
+  -webkit-transform: translateY(-97%);
+          transform: translateY(-97%);
+  width: 100vw;
+  line-height: 0;
+}
+
+.section-wave .section-wave > svg {
+  width: 100vw;
+  height: auto;
+}
+
+.intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, right top, from(#6d0eb1), to(#310cb3));
+  background-image: linear-gradient(to right, #6d0eb1, #310cb3);
+  padding: 10px;
+  color: white;
+}
+
+.intro div h1 {
+  font-size: 400%;
+}
+
+.intro div div .btn {
+  margin: 5px;
+}
+
+.intro div div .btn:hover {
+  background-color: #981DF0;
+  color: white;
+  border: 2px solid #981DF0 !important;
+}
+
+.links {
+  background-color: #ed1c94;
+  border: 2px solid #ed1c94;
+  color: #ffffff;
+  border-radius: 20px !important;
+}
+
+.rechts {
+  background-color: transparent;
+  border: 2px solid white !important;
+  color: #ffffff;
+  border-radius: 20px !important;
+}
+
+#over_ons {
+  padding: 50px 0;
+  min-height: 100vh;
+}
+
+#over_ons .over_ons-title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#aanbod {
+  padding-bottom: 50px;
+  margin-top: 50px !important;
+}
+
+.aanbod {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.aanbod h3 {
+  text-align: center;
+}
+
+.aanbod .card {
+  margin: 20px 0;
+}
+
+.aanbod .card .item-img-container {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.aanbod .card .item-img-container img {
+  max-height: 286px;
+}
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  background-color: rgba(237, 28, 148, 0.5);
+  border-radius: inherit;
+}
+
+/* When you mouse over the container, fade in the overlay icon*/
+.card-overlay:hover .overlay {
+  opacity: 1;
+}
+
+/* The icon inside the overlay is positioned in the middle vertically and horizontally */
+.icon {
+  color: white;
+  opacity: 1;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* When you move the mouse over the icon, change color */
+.fa-plus:hover, .icon:hover {
+  color: #fff;
+}
+
+.fab {
+  border-radius: 100%;
+  background-color: #21212E;
+}
+
+.page-footer {
+  min-height: 150px;
+  padding-top: 30px;
+  background-color: #29293A;
+  color: white;
+}
+
+.page-footer a {
+  color: white;
+}
+
+.page-footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.page-footer .col-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.social-media-icons-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.aboutUs-section {
+  min-height: 110vh;
+  padding: 50px 0;
+}
+
+.aboutUs-section .imacScherm {
+  max-width: 100%;
+}
+
+.aboutUs-section .over_ons-title {
+  margin-bottom: 60px;
+  position: relative;
+  z-index: 1;
+}
+
+.aboutUs-section .over_ons-title h3 {
+  position: relative;
+}
+
+.aboutUs-section .aboutUs-knop {
+  position: relative;
+  top: 20px;
+  left: 10px;
+  padding: 14px 38px;
+  border: 1px solid #ededed;
+  border-radius: 30px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+  background-color: #ED1C94;
+  color: white !important;
+}
+
+.aboutUs-section .aboutUs-knop:hover {
+  cursor: pointer;
+  background-color: #981DF0;
+}
+
+.about-text, .aboutimg {
+  margin: 0 !important;
+}
 /*# sourceMappingURL=style.css.map */
