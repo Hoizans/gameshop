@@ -41,17 +41,3 @@ hr {
   padding: 0 !important;
   margin: 0 !important;
 }
-
-.section-wave {
-  position: absolute;
-  top: 0;
-  transform: translateY(-97%);
-  width: 100vw;
-  line-height: 0;
-  .section-wave>svg {
-    width: 100vw;
-    height: auto;
-  }
-
-}
-

@@ -34,25 +34,13 @@ hr {
   margin: 0 !important;
 }
 
-.section-wave {
-  position: absolute;
-  top: 0;
-  transform: translateY(-97%);
-  width: 100vw;
-  line-height: 0;
-}
-.section-wave .section-wave > svg {
-  width: 100vw;
-  height: auto;
-}
-
 .intro {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   height: 100vh;
-  background-image: linear-gradient(to right, #6d0eb1, #310cb3);
+  background-image: linear-gradient(135deg,#6d0eb1 59%,#080ab4 100%);
   padding: 10px;
   color: white;
 }
@@ -110,6 +98,7 @@ hr {
   margin: 20px 0;
 }
 .aanbod .card .item-img-container {
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;

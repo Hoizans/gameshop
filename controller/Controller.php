@@ -27,7 +27,5 @@ class Controller{
         include 'view/home.php';
     }
 
-
-
 }
 ?>
