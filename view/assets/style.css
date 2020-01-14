@@ -3,6 +3,7 @@ body {
   top: 0;
   left: 0;
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 .test-blok {
@@ -34,19 +35,42 @@ hr {
   margin: 0 !important;
 }
 
-.section-wave svg{
-  fill: white;
+.section-wave {
+  position: absolute;
+  top: 0;
+  transform: translateY(-97%);
+  width: 100vw;
+  line-height: 0;
+}
+.section-wave .section-wave > svg {
+  width: 100vw;
+  height: auto;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  z-index: 999 !important;
+  width: 8px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #555;
 }
 
 .intro {
-  width: 102%;
-  margin-bottom: -45px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   height: 100vh;
-  background-image: linear-gradient(135deg,#6d0eb1 59%,#080ab4 100%);
+  background-image: linear-gradient(to right, #6d0eb1, #310cb3);
   padding: 10px;
   color: white;
 }
@@ -102,16 +126,21 @@ hr {
 }
 .aanbod .card {
   margin: 20px 0;
+  border-color: transparent;
 }
 .aanbod .card .item-img-container {
-  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .aanbod .card .item-img-container img {
   max-height: 286px;
+  border-radius: 5px;
 }
+.aanbod .card .card-title {
+  text-align: center !important;
+}
+
 /* The overlay effect (full height and width) - lays on top of the container and over the image */
 .overlay {
   position: absolute;
@@ -119,12 +148,12 @@ hr {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
+  height: 74%;
   width: 100%;
   opacity: 0;
   transition: 0.3s ease;
   background-color: rgba(237, 28, 148, 0.5);
-  border-radius: inherit;
+  border-radius: 5px;
 }
 
 /* When you mouse over the container, fade in the overlay icon*/
