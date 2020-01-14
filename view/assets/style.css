@@ -34,7 +34,13 @@ hr {
   margin: 0 !important;
 }
 
+.section-wave svg{
+  fill: white;
+}
+
 .intro {
+  width: 102%;
+  margin-bottom: -45px;
   display: flex;
   justify-content: center;
   align-items: center;
