@@ -6,6 +6,10 @@ body {
   overflow-x: hidden;
 }
 
+div {
+  overflow-x: hidden;
+}
+
 .test-blok {
   width: 90%;
   height: 300px;
@@ -33,10 +37,10 @@ hr {
 .row {
   padding: 0 !important;
   margin: 0 !important;
+  overflow-x: hidden;
 }
 
 .section-wave {
-  position: absolute;
   top: 0;
   transform: translateY(-97%);
   width: 100vw;
@@ -45,6 +49,9 @@ hr {
 .section-wave .section-wave > svg {
   width: 100vw;
   height: auto;
+}
+.section-wave svg {
+  fill: white;
 }
 
 ::-webkit-scrollbar-track {

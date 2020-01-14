@@ -4,7 +4,11 @@ body {
   top: 0;
   left: 0;
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
   //padding: 10px;
+}
+
+div {
   overflow-x: hidden;
 }
 
@@ -41,10 +45,11 @@ hr {
 .row{
   padding: 0 !important;
   margin: 0 !important;
+  overflow-x: hidden;
 }
 
 .section-wave {
-  position: absolute;
+  //position: absolute;
   top: 0;
   transform: translateY(-97%);
   width: 100vw;
@@ -53,8 +58,12 @@ hr {
     width: 100vw;
     height: auto;
   }
+  svg{
+    fill: white;
+  }
 
 }
+
 
 ::-webkit-scrollbar-track
 {
