@@ -18,5 +18,52 @@
     </div>
 </footer>
 
+<div class="gfq-wrap" onClick="window.location.href='?op=cart'">
+    <div class="gfq-badge">
+        <script>
+            function clickrefresh(){
+                document.getElementsByTagName("div").onClick = refreshNumbers();
+            }
+
+            function refreshNumbers() {
+                let items = JSON.parse(sessionStorage.getItem("shopping_cart"));
+
+                let price = 0;
+                for (let i = 0; i < items.length; i++) {
+
+                    let itemArray = items[i];
+                    console.log(itemArray);
+                    for (let j = 0; j < itemArray.length; j++) {
+
+                        let itemPrice = parseFloat(itemArray[2]);
+                        price += itemPrice;
+
+                    }
+
+                }
+                //document.write(items);
+                document.write("€ " + price / 3);
+            }
+
+            clickrefresh();
+
+        </script>
+    </div>
+</div>
+
+<script>
+    let arr = [];
+    function addItem(id, name, price){
+        let newArr = [id, name, price];
+        arr.push(newArr);
+        // console.log(arr);
+        sessionStorage.setItem("shopping_cart", JSON.stringify(arr));
+        //console.log(JSON.parse(sessionStorage.getItem("shopping_cart")));
+    }
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
 </body>
 </html>

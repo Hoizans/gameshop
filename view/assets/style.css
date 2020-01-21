@@ -263,4 +263,79 @@ hr {
   margin: 0 !important;
 }
 
+.gfq-wrap {
+  z-index: 9999999;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}
+
+.gfq-badge {
+  background: #71C28E;
+  /*Change this colour to change the circle*/
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.1s ease-in-out;
+  transform: scale(1);
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.gfq-badge img {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  width: 80% !important;
+}
+
+.gfq-panel {
+  width: 373px;
+  /*Panel width*/
+  height: auto;
+  /*Panel height*/
+  max-width: 400px;
+  /*Mac Panel width*/
+  max-height: 800px;
+  /*Max Panel height*/
+  background: #F9FAFA;
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.1);
+  position: absolute;
+  bottom: 40px;
+  right: 0px;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  border-radius: 4px;
+  overflow: hidden;
+  padding: 30px;
+  border: 1px solid #D9E0E3;
+}
+
+.panel-active {
+  bottom: 80px;
+  opacity: 100;
+}
+
+.gfield.no-label > .gfield_label {
+  display: none;
+}
+
+.gfq-panel input[type=submit] {
+  width: 100%;
+}
+
+.cart-container {
+  padding: 20px;
+  color: black;
+  height: 80vh;
+  margin: 50px 0;
+  background-color: white;
+}
+
 /*# sourceMappingURL=style.css.map */

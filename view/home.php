@@ -18,6 +18,9 @@
         </svg>
     </div>
     <!--  tweede sectie  -->
+<script>
+
+</script>
     <div id="aanbod" style="margin: 0pc 7pc 0pc 7pc;">
         <div class="row aanbod">
             <div class="col-12">
@@ -25,7 +28,7 @@
                 <hr>
             </div>
 
-            <div class="card card-overlay" style="width: 18rem;">
+            <div class="card card-overlay" onClick="addItem(1, 'Keiland Evolved', '20.00')" style="width: 18rem;">
                 <div class="item-img-container">
                     <img src="view/assets/images/ark.jpg" width="100%">
                 </div>
@@ -40,7 +43,7 @@
                 </div>
             </div>
 
-            <div class="card card-overlay" style="width: 18rem;">
+            <div class="card card-overlay" onClick="addItem(2, 'Rocket League', '24.00')" style="width: 18rem;">
                 <div class="item-img-container">
                     <img src="view/assets/images/rocket.jpg" width="100%">
                 </div>
@@ -55,7 +58,7 @@
                 </div>
             </div>
 
-            <div class="card card-overlay" style="width: 18rem;">
+            <div class="card card-overlay" onClick="addItem(3, 'Astroneer', '24.00')" style="width: 18rem;">
                 <div class="item-img-container">
                     <img src="view/assets/images/astroneer.jpg" width="100%">
                 </div>
@@ -70,7 +73,7 @@
                 </div>
             </div>
 
-            <div class="card card-overlay" style="width: 18rem;">
+            <div class="card card-overlay" onClick="addItem(4, 'Woerden Simulator', '24.00')" style="width: 18rem;">
                 <div class="item-img-container">
                     <img src="view/assets/images/farming.jpg" width="100%">
                 </div>
@@ -85,7 +88,7 @@
                 </div>
             </div>
 
-            <div class="card card-overlay" style="width: 18rem;">
+            <div class="card card-overlay" onClick="addItem(5, 'Cities Skylines', '24.00')" style="width: 18rem;">
                 <div class="item-img-container">
                     <img src="view/assets/images/city.jpg" width="100%">
                 </div>
@@ -100,7 +103,7 @@
                 </div>
             </div>
 
-            <div class="card card-overlay" style="width: 18rem;">
+            <div class="card card-overlay" onClick="addItem(6, 'Far Cry 3', '24.00')" style="width: 18rem;">
                 <div class="item-img-container">
                     <img src="view/assets/images/farcry.jpg" width="100%">
                 </div>
@@ -115,7 +118,7 @@
                 </div>
             </div>
 
-            <div class="card card-overlay" style="width: 18rem;">
+            <div class="card card-overlay" onClick="addItem(7, 'FIfA 10', '24.00')" style="width: 18rem;">
                 <div class="item-img-container">
                     <img src="view/assets/images/fifa.jpg" width="100%">
                 </div>
@@ -130,7 +133,7 @@
                 </div>
             </div>
 
-            <div class="card card-overlay" style="width: 18rem;">
+            <div class="card card-overlay" onClick="addItem(8, 'Hoi', '24.00')" style="width: 18rem;">
                 <div class="item-img-container">
                     <img src="view/assets/images/halo.jpg" width="100%">
                 </div>
@@ -145,7 +148,7 @@
                 </div>
             </div>
 
-            <div class="card card-overlay" style="width: 18rem;">
+            <div class="card card-overlay" onClick="addItem(9, 'Red Dead Redemption', '24.00')" style="width: 18rem;">
                 <div class="item-img-container">
                     <img src="view/assets/images/red.jpg" width="100%">
                 </div>
@@ -160,7 +163,7 @@
                 </div>
             </div>
 
-            <div class="card card-overlay" style="width: 18rem;">
+            <div class="card card-overlay" onClick="addItem(10, 'Tramshooting Simulator', '24.00')" style="width: 18rem;">
                 <div class="item-img-container">
                     <img src="view/assets/images/tram.jpg" width="100%">
                 </div>
@@ -175,7 +178,7 @@
                 </div>
             </div>
 
-            <div class="card card-overlay" style="width: 18rem;">
+            <div class="card card-overlay" onClick="addItem(11, 'Rust', '24.00')" style="width: 18rem;">
                 <div class="item-img-container">
                     <img src="view/assets/images/rust.jpg" width="100%">
                 </div>
@@ -190,7 +193,7 @@
                 </div>
             </div>
 
-            <div class="card card-overlay" style="width: 18rem;">
+            <div class="card card-overlay" onClick="addItem(12, 'Subnautica', '24.00')" style="width: 18rem;">
                 <div class="item-img-container">
                     <img src="view/assets/images/subnautica.jpg" width="100%">
                 </div>
@@ -205,7 +208,7 @@
                 </div>
             </div>
 
-            <div class="card card-overlay" style="width: 18rem;">
+            <div class="card card-overlay" onClick="addItem(13, '2K20', '24.00')" style="width: 18rem;">
                 <div class="item-img-container">
                     <img src="view/assets/images/2k.jpg" width="100%">
                 </div>
@@ -220,7 +223,7 @@
                 </div>
             </div>
 
-            <div class="card card-overlay" style="width: 18rem;">
+            <div class="card card-overlay" onClick="addItem(14, 'Anass Portfolio Simulator', '0.00')" style="width: 18rem;">
                 <div class="item-img-container">
                     <img src="view/assets/images/hout.jpg" width="100%">
                 </div>
