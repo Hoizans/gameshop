@@ -28,7 +28,7 @@
                 <hr>
             </div>
 
-            <div class="card card-overlay" onClick="addItem(1, 'Keiland Evolved', '20.00')" style="width: 18rem;">
+            <div class="card card-overlay" onClick="addItem(1, 'Keiland Evolved', '20.00');" style="width: 18rem;">
                 <div class="item-img-container">
                     <img src="view/assets/images/ark.jpg" width="100%">
                 </div>
@@ -36,7 +36,7 @@
                     <br>
                     <h5 class="card-title">Keiland Evolved</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="Toevoegen">
+                        <a href="javascript:void(0)" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -51,7 +51,7 @@
                     <br>
                     <h5 class="card-title">Rocket League</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="Toevoegen">
+                        <a href="javascript:void(0)" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -66,7 +66,7 @@
                     <br>
                     <h5 class="card-title">Astroneer</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="Toevoegen">
+                        <a href="javascript:void(0)" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -81,7 +81,7 @@
                     <br>
                     <h5 class="card-title">Woerden Simulator</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="Toevoegen">
+                        <a href="javascript:void(0)" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -96,7 +96,7 @@
                     <br>
                     <h5 class="card-title">Cities Skylines</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="Toevoegen">
+                        <a href="javascript:void(0)" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -111,7 +111,7 @@
                     <br>
                     <h5 class="card-title">Far Cry 3</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="Toevoegen">
+                        <a href="javascript:void(0)" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -126,7 +126,7 @@
                     <br>
                     <h5 class="card-title">FIfA 10</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="Toevoegen">
+                        <a href="javascript:void(0)" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -141,7 +141,7 @@
                     <br>
                     <h5 class="card-title">Hoi</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="Toevoegen">
+                        <a href="javascript:void(0)" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -156,7 +156,7 @@
                     <br>
                     <h5 class="card-title">Red Dead Redemption</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="Toevoegen">
+                        <a href="javascript:void(0)" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -171,7 +171,7 @@
                     <br>
                     <h5 class="card-title">Tramshooting simulator</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="Toevoegen">
+                        <a href="javascript:void(0)" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -186,7 +186,7 @@
                     <br>
                     <h5 class="card-title">Rust</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="Toevoegen">
+                        <a href="javascript:void(0)" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -201,7 +201,7 @@
                     <br>
                     <h5 class="card-title">Subnautica</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="Toevoegen">
+                        <a href="javascript:void(0)" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -216,7 +216,7 @@
                     <br>
                     <h5 class="card-title">2K20</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="Toevoegen">
+                        <a href="javascript:void(0)" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
@@ -231,7 +231,7 @@
                     <br>
                     <h5 class="card-title">Anass Portfolio Simulator</h5>
                     <div class="overlay">
-                        <a href="#" class="icon" title="Toevoegen">
+                        <a href="javascript:void(0)" class="icon" title="Toevoegen">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </a>
                     </div>
