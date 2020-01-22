@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="view/assets/includes.css" type="text/css">
 
     <script src="https://kit.fontawesome.com/662656f14c.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>Gameshop</title>
 </head>
 <body>

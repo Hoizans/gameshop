@@ -17,7 +17,7 @@
 
                 let itemArray = items[i];
                 console.log(itemArray);
-                for(let j = 0; j < itemArray.length; j++){
+
 
                     let itemPrice = parseFloat(itemArray[2]);
                     price += itemPrice;
@@ -25,7 +25,7 @@
                     let tablerow = "<tr><td>" + itemArray[1] + "</td><td>€" + parseFloat(itemArray[2]) + "</td><tr>";
                     document.write(tablerow);
 
-                }
+
 
             }
         </script>
