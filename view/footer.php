@@ -19,7 +19,8 @@
 </footer>
 
 <div class="gfq-wrap" onClick="window.location.href='?op=cart'">
-    <div class="gfq-badge">
+    <div class="gfq-badge" id="gfq-badge">
+        € 0
         <script>
                 let items = JSON.parse(sessionStorage.getItem("shopping_cart"));
 
@@ -33,8 +34,10 @@
                         price += itemPrice;
 
                 }
-                //document.write(items);
-                document.write("€ " + price);
+
+
+                    document.getElementById("gfq-badge").innerHTML = "€ " + price;
+
 
         </script>
     </div>
